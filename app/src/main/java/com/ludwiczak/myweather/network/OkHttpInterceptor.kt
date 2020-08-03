@@ -12,7 +12,6 @@ open class OkHttpInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         val b: Request.Builder = chain.request().newBuilder()
         b.addHeader("Accept-Encoding", "gzip");
-        b.addHeader("Accept-Encoding", "gzip");
         return chain.proceed(b.build())
     }
 }
