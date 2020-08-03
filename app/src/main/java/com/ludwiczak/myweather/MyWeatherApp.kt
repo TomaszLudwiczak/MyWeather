@@ -1,0 +1,15 @@
+package com.ludwiczak.myweather
+
+import android.app.Application
+import com.facebook.stetho.Stetho
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class MyWeatherApp: Application() {
+    override fun onCreate() {
+        super.onCreate()
+        if (BuildConfig.STETHO) {
+            Stetho.initializeWithDefaults(applicationContext)
+        }
+    }
+}

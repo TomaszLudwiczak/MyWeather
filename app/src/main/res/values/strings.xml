@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string name="search_hint">Find your place</string>
+    <string name="powered_by_accuweather">Powered by accuweather</string>
+    <string name="location_item">%s (%s/%s)</string>
+    <string name="metric">%s (%s)</string>
+    <string name="icon_number">https://developer.accuweather.com/sites/default/files/%02d-s.png</string>
+
+    <string name="details">Details</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="fivedays">5 days</string>
+
+
+    <string name="temperature">Temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
+</resources>
